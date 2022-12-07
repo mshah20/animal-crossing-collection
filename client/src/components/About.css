@@ -1,0 +1,41 @@
+body {
+    background-color: #af8979;
+}
+
+.about-page {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-container {
+    margin-top: 5%;
+    padding-bottom: 50px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-container h1 {
+    font-size: 3rem;
+    color: #eeeeee;
+    margin: 0;
+}
+
+.text-container hr {
+    height: 5px;
+    width: 80%;
+    background-color: #eeeeee;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.text-container p {
+    font-size: 2rem;
+    color: #eeeeee;
+}
+

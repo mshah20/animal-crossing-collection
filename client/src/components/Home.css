@@ -1,0 +1,62 @@
+.container {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url('/public/media/source-nintendosoup-com.jpg');
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+    margin-left: -40px;
+}
+
+.yes-please {
+    margin: 0;
+    font-size: 30px;
+    font-weight:700;
+    margin-left: 30px;
+    margin-bottom: 18px;
+    transition: 0.3s;
+    animation: ease-in;
+}
+
+.yes-please:hover {
+    transform: scale(1.3);
+}
+
+.container a {
+    text-decoration: none;
+    color: #269c16;
+}
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .yes-please {
+        font-size: 35px;
+    }
+  } 
+
+@media only screen and (min-width: 3500px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    .yes-please {
+        font-size: 65px;
+        margin-bottom: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .container h1, .yes-please {
+        display: none;
+    }
+  }

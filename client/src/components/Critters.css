@@ -1,0 +1,28 @@
+body {
+    margin-top: 50px;
+}
+
+.critters-page {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c89a88;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 140px);
+    gap: 5px;
+    width: 95vw;
+    margin-top: 15px;    
+}
+
+.fish-header, .sea-header, .bugs-header {
+    color: #eeeeee;
+}
+
+hr {
+    color: #eeeeee;
+    width: 90%;
+}
